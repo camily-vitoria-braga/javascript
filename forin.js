@@ -4,7 +4,5 @@ const carro ={
     ano:2024,
     cor:"Prata"
 };
-for (const in carro) {
-    console.log('${chave}: $ {carro[chave]}');
-    
-}
+for (const chave in carro) {
+    console.log(`{${chave}: $ {carro[chave]}`})
