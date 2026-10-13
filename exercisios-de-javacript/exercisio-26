@@ -1,0 +1,10 @@
+// 26. (Verdadeiro ou Falso) É possível declarar a variável de controle do for utilizando const,
+//  como em for (const i = 0; i < 5; i++).  
+// ( ) Verdadeiro  (x) Falso 
+
+for (let i = 0; i < 5; i++) {
+    console.log(i);
+}
+
+//RESPOSTA: É falso porque o const não permite alterar o valor da variável,
+//  e o i++ precisa aumentar seu valor a cada repetição do laço. Por isso, usamos let.
