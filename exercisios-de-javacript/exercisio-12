@@ -1,0 +1,8 @@
+//12. (Verdadeiro ou Falso) O código 10 = idade; é uma atribuição válida em JavaScript. 
+// ( ) Verdadeiro  (x) Falso 
+
+let idade = 10;
+console.log(idade);
+
+//RESPOSTA: idade = 10 significa que estamos atribuindo o valor 10 à variável idade. 
+// Já 10 = idade é inválido porque não podemos atribuir um valor a um número.
